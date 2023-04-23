@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7b88a1c-b6bb-43fe-a5a2-7cac836edc2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/currency/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/currency/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/eval/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/temperature/TemperatureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/temperature/Temperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krymlov/tests/CurrencyConversionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krymlov/tests/TemperatureConversionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Users/Danil/Desktop/HW_Inform/3/Testing/MockitoNG/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Users/Danil/Desktop/HW_Inform/3/Testing/MockitoNG/TestNG-Mock"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Users\Danil\Desktop\HW_Inform\3\Testing\MockitoNG\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.MockitoNG [install]">
+  <component name="RunManager">
     <configuration name="MockitoNG [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -207,6 +188,7 @@
       <updated>1682245757902</updated>
       <workItem from="1682245759253" duration="10273000" />
       <workItem from="1682261818872" duration="33000" />
+      <workItem from="1682262194143" duration="36000" />
     </task>
     <servers />
   </component>
