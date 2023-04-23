@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SecondTest suite">
+    <test name="Temperature Test Group Execution">
+        <groups>
+            <run>
+                <include name="temperature"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.krymlov.tests.TemperatureConversionTests"/>
+        </classes>
+    </test>
+</suite>
