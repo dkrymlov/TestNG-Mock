@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7b88a1c-b6bb-43fe-a5a2-7cac836edc2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/Configurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/buttons/LinuxButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/buttons/MacOsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/factories/GUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/factories/LinuxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/factories/MacOsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/factories/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/labels/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/labels/LinuxLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/labels/MacOsLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/factory/labels/WindowsLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krymlov/tests/GUIFactoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,15 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Users/Danil/Desktop/HW_Inform/3/Testing/MockitoNG/TestNG-Mock"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Users/Danil/Desktop/HW_Inform/3/Testing/MockitoNG/TestNG-Mock&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Users\Danil\Desktop\HW_Inform\3\Testing\MockitoNG\src\main\java" />
@@ -72,8 +88,8 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CurrencyConversionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MockitoNG" />
+    <configuration name="GUIFactoryTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG-Mock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.krymlov.tests.*" />
@@ -81,7 +97,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krymlov.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.CurrencyConversionTests" />
+      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.GUIFactoryTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyConversionTests.badConvertCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MockitoNG" />
+    <configuration name="GUIFactoryTests.checkMock" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG-Mock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.krymlov.tests.*" />
@@ -98,8 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krymlov.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.CurrencyConversionTests" />
-      <option name="METHOD_NAME" value="badConvertCurrency" />
+      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.GUIFactoryTests" />
+      <option name="METHOD_NAME" value="checkMock" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyConversionTests.convertCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MockitoNG" />
+    <configuration name="GUIFactoryTests.checkSystemFunctions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG-Mock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.krymlov.tests.*" />
@@ -116,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krymlov.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.CurrencyConversionTests" />
-      <option name="METHOD_NAME" value="convertCurrency" />
+      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.GUIFactoryTests" />
+      <option name="METHOD_NAME" value="checkSystemFunctions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConversionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MockitoNG" />
+    <configuration name="GUIFactoryTests.createWindowsStyledApplication" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG-Mock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.krymlov.tests.*" />
@@ -134,16 +150,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krymlov.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.TemperatureConversionTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.GUIFactoryTests" />
+      <option name="METHOD_NAME" value="createWindowsStyledApplication" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConversionTests.convertTemperatureTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MockitoNG" />
+    <configuration name="GUIFactoryTests.mockApplicationInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG-Mock" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.krymlov.tests.*" />
@@ -151,8 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krymlov.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.TemperatureConversionTests" />
-      <option name="METHOD_NAME" value="convertTemperatureTest" />
+      <option name="MAIN_CLASS_NAME" value="com.krymlov.tests.GUIFactoryTests" />
+      <option name="METHOD_NAME" value="mockApplicationInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.MockitoNG [install]" />
-      <item itemvalue="TestNG.CurrencyConversionTests" />
-      <item itemvalue="TestNG.CurrencyConversionTests.badConvertCurrency" />
-      <item itemvalue="TestNG.CurrencyConversionTests.convertCurrency" />
-      <item itemvalue="TestNG.TemperatureConversionTests" />
-      <item itemvalue="TestNG.TemperatureConversionTests.convertTemperatureTest" />
+      <item itemvalue="TestNG.GUIFactoryTests" />
+      <item itemvalue="TestNG.GUIFactoryTests.checkMock" />
+      <item itemvalue="TestNG.GUIFactoryTests.checkSystemFunctions" />
+      <item itemvalue="TestNG.GUIFactoryTests.createWindowsStyledApplication" />
+      <item itemvalue="TestNG.GUIFactoryTests.mockApplicationInfo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CurrencyConversionTests" />
-        <item itemvalue="TestNG.CurrencyConversionTests.badConvertCurrency" />
-        <item itemvalue="TestNG.TemperatureConversionTests" />
-        <item itemvalue="TestNG.CurrencyConversionTests.convertCurrency" />
-        <item itemvalue="TestNG.TemperatureConversionTests.convertTemperatureTest" />
+        <item itemvalue="TestNG.GUIFactoryTests" />
+        <item itemvalue="TestNG.GUIFactoryTests.createWindowsStyledApplication" />
+        <item itemvalue="TestNG.GUIFactoryTests.checkSystemFunctions" />
+        <item itemvalue="TestNG.GUIFactoryTests.mockApplicationInfo" />
+        <item itemvalue="TestNG.GUIFactoryTests.checkMock" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +206,7 @@
       <workItem from="1682245759253" duration="10273000" />
       <workItem from="1682261818872" duration="33000" />
       <workItem from="1682262194143" duration="36000" />
+      <workItem from="1682334298850" duration="5171000" />
     </task>
     <servers />
   </component>
